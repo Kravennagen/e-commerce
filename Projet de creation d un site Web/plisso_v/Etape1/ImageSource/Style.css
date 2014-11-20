@@ -30,7 +30,7 @@ h3
 }
 body 
 {
-	background-image: url("DataSource/background_web.png");
+	background-image: url("ImageSource/background_web.png");
 	max-width: 1100px;
 	text-align: auto;
 }
@@ -123,4 +123,14 @@ footer
     margin: 10px;
     text-decoration: blink;
     text-align: center;
+}
+.align
+{
+      margin: 5px;
+    padding: 10px;
+    border: 1px solid ;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: auto;
 }
