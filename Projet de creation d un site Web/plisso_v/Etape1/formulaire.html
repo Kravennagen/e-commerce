@@ -1,28 +1,43 @@
 <html>
 <head>
-	<link rel="stylesheet" href="Style.css" />
-	<meta charset="utf-8" />
-	<title>MEGATech</title>
-</head>
-<body>
-<h1>MEGATech</h1>
+        <link rel="stylesheet" type="text/css" href="ImageSource/Style.css" />
+        <meta charset="utf-8" />
+        <title>MEGATech</title>
+<h1>Tablettes</h1>
 <h3>La technologie à petit prix! </h3>
+          <div id="startpage">
+         <!--Bouton & Formulaire (Login,Password,s'inscrire,search)-->
+ <div id="monpanier">
+  <p><input class="button" type="button" href="commande.html" value="Mon Panier"/></p>
+</div>
+<div id="moncompte">
+  <p><input class="button" type="button" href="formulaire.html" value="Mon Compte"/></p>
+</div>
+ <div id="inscription";
+    <form method="post" action="traitementpseudo.php">
+      <p><input type="text" name="pseudo" placeholder="pseudo"/></p>
+      <p><input type="text" name="pseudo" placeholder="password"/></p>
+      <p><input type="submit" value="S'inscrire" /></p>
+    </div>
+    <div id="searchbar">
+       <form action="" class="formulaire">
+       <input class="champ" type="text" placeholder="Search" size="100"/>
+       <input class="bouton" type="button" value="Search" />
+      </form>
+    </div>
+  </div>
+
+</head>
 <!-- Barre de menu -->
 <nav>
-	<ul>
-		<li><a href="accueil.html">Accueil<a/></li>
-		<li><a href="Téléphones.html">Téléphones</a></li>
-		<li><a href="Tablettes.html">Tablettes</a></li>
-		<li><a href="help.html">Help</a></li>
-	</ul>
+        <ul>
+                <li><a href="mysite.html">Accueil</a></li>
+                <li><a href="Telephones.html">Téléphones</a></li>
+                <li><a href="tablettes.html">Tablettes</a></li>
+                <li><a href="help.html">Help</a></li>
+        </ul>
 </nav>
-<!--Bouton & Formulaire (Login,Password,s'inscrire,search)-->
-	  <form method="post" action="traitementpseudo.php">
-   <p><input type="text" name="pseudo" placeholder="pseudo"/></p>
-       <form method="post" action="traitementpassword.php">
-   <p><input type="text" name="pseudo" placeholder="password"/></p>
-   <input type="submit" value="S'inscrire" /><br><br>
-<div id="searchbar">
+<body>
 <a href="tablette.html"></a>
 <form method="post">
 	<label>Nom: <input type="text" name="nom" /></label><br/><br>
