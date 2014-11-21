@@ -6,93 +6,90 @@
       <link rel="stylesheet" type="text/css" href="ImageSource/Style.css">
       <h1>Tablettes</h1>
       <h3>La technologie à petit prix ... ! </h3>
-      
       <!--Bouton & Formulaire (Login,Password,s'inscrire,search)-->
       <div id="monpanier">
-	<p><input class="button" type="button" href="commande.html" value="Mon Panier"/></p>
+        <a href="monpanier.html" id="bt">Mon Panier</a>
       </div>
-      <form METHOD=POST action="mon_compte.html">
-	<div id="moncompte">
-	  <p><input class="button" type="submit" href="mon_compte.html" value="Mon Compte"/></p>
-	</div>
-      </form>
-      <div id="inscription";
-	   <form method="post" action="traitementpseudo.php">
-	     <p><input type="text" name="pseudo" placeholder="pseudo"/></p>
-	     <p><input type="text" name="pseudo" placeholder="password"/></p>
-	     <p><input type="submit" value="S'inscrire" /></p>
+      <div id="moncompte">
+        <a href="mon_compte.html" id="bt">Mon Compte</a>
+      </div>
+      <div id="inscription">
+        <form method="post" action="/formulaire.html">
+          <p><input type="text" name="pseudo" placeholder="pseudo"/></p>
+          <p><input type="text" name="pseudo" placeholder="password"/></p>
+          <p><input type="submit" value="S'inscrire" /></p>
+        </form>
+        <div id="cont_bouton">
+          <a href="formulaire.html" id="bt">Inscription</a>
+        </div>
+      </div>
+      <div id="searchbar">
+        <form action="" class="formulaire">
+          <input class="champ" type="text" placeholder="Search" size="100"/>
+          <input class="bouton" type="button" value="Search" />
+        </form>
+      </div>
     </div>
-    <div id="searchbar">
-      <form action="" class="formulaire">
-	<input class="champ" type="text" placeholder="Search" size="100"/>
-	<input class="bouton" type="button" value="Search" />
-      </form>
+    <!-- Barre de menu -->
+    <nav>
+      <ul>
+        <li><a href="mysite.html">Accueil</a></li>
+        <li><a href="Telephones.html">Téléphones</a></li>
+        <li><a href="Tablettes.html">Tablettes</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <h4>Nos offres :</h4>
+    <div>
+      <h4>Samsung</h4>
+      <a class="align"><img src="ImageSource/sam1.png" title="Samsung Galaxy Tab 3 Blanc"/>
+	<figcaption>Galaxy Tab3, 129€ </figcaption> </a>
+      <a class="align"><img src="ImageSource/sam2.png" title="Samsung Slate"/>
+	<figcaption>Slate, 219.90€ </figcaption> </a>
+      <a class="align"><img src="ImageSource/sam3.png" title="Samsung Galaxy Tab 3 Noir"/>
+	<figcaption>Galaxy Tab 10.1, 129€ </figcaption> </a>
+      <a class="align"><img src="ImageSource/sam4.png" title="Samsung Galaxy Tab 10.1"/>
+	<figcaption>Galaxy Note, 236,15€ </figcaption> </a>
+      <a class="align"><img src="ImageSource/sam5.png" title="Samsung Galaxy Note"/>
+	<figcaption>Galaxy Tab2, 179,99€ </figcaption> </a>
     </div>
-</div>
-</head>
-
-<!-- Barre de menu -->
-<nav>
-  <ul>
-    <li><a href="mysite.html">Accueil</a></li>
-    <li><a href="Telephones.html">Téléphones</a></li>
-    <li><a href="Tablettes.html">Tablettes</a></li>
-    <li><a href="support.html">Support</a></li>
-  </ul>
-</nav>
-<body>
-  <h4>Nos offres :</h4>
-  <div>
-    <h4>Samsung</h4>
-    <a class="align"><img src="ImageSource/sam1.png" title="Samsung Galaxy Tab 3 Blanc"/>
-      <figcaption>Galaxy Tab3, 129€ </figcaption> </a>
-    <a class="align"><img src="ImageSource/sam2.png" title="Samsung Slate"/>
-      <figcaption>Slate, 219.90€ </figcaption> </a>
-    <a class="align"><img src="ImageSource/sam3.png" title="Samsung Galaxy Tab 3 Noir"/>
-      <figcaption>Galaxy Tab 10.1, 129€ </figcaption> </a>
-    <a class="align"><img src="ImageSource/sam4.png" title="Samsung Galaxy Tab 10.1"/>
-      <figcaption>Galaxy Note, 236,15€ </figcaption> </a>
-    <a class="align"><img src="ImageSource/sam5.png" title="Samsung Galaxy Note"/>
-      <figcaption>Galaxy Tab2, 179,99€ </figcaption> </a>
-  </div>
-  <!--<table><tr><td><b>Nom du produit:</b></td><td>Galaxy Tab3</td><td>Slate</td><td>Galaxy Tab3</td><td>Galaxy Tab 10.1</td><td>Galaxy Note</td><td>Galaxy Tab2</td></tr><tr><td><b>Prix du produit:</b></td><td>129€</td><td>219.90€</td><td>129€</td><td>236.15€</td><td>179.99€</td><td>141.99€</td></tr></table>-->
-  <div>
-    <h4>HP</h4>
-    <a class="align"><img src="ImageSource/hp1.png" title="Slate HP 500"/>
-      <figcaption>HP Slate 500, 700€</figcaption> </a>
-    <a class="align"><img src="ImageSource/hp3.png" title="HP TouchPad"/>
-      <figcaption>HP TouchPad, 430€</figcaption> </a>
-    <a class="align"><img src="ImageSource/hp4.png" title="HP EliteTab"/>
-      <figcaption>HP EliteTab, 629.99€</figcaption> </a>
-    <a class="align"><img src="ImageSource/hp5.png" title="HP Slate"/>
-      <figcaption>HP Slate, 169.90€</figcaption> </a>
-    <a class="align"><img src="ImageSource/hp6.png" title="HP Slate 2"/>
-      <figcaption>HP Slate 2, 366.57€</figcaption> </a>
-  </div>
-  <!--table><tr><td><b>Nom du produit:</b></td><td>Slate HP 500</td><td>TouchPad</td><td>EliteTab</td><td>Slate</td><td>Slate 2</td></tr><tr><td><b>Prix du produit:</b></td><td>700€</td><td>430€</td><td>629.99€</td><td>169.90€</td><td>366.57€</td></tr></table>-->
-  <div>
-    <h4>Apple</h4>
-    <a class="align"><img src="ImageSource/i5.png" title="iPad 1"/>
-      <figcaption>iPad 1, 150€</figcaption> </a>
-    <a class="align"><img src="ImageSource/i4.png" title="iPad 2"/>
-      <figcaption>iPad 2, 550 €</figcaption> </a>
-    <a class="align"><img src="ImageSource/i2.png" title="iPad 3"/>
-      <figcaption>iPad 3, 629.99€</figcaption> </a>
-    <a class="align"><img src="ImageSource/i3.png" title="iPad Mini"/>
-      <figcaption>iPad Mini, 169.90€</figcaption> </a>
-    <a class="align"><img src="ImageSource/i1.png" title="iPad retina"/>
-      <figcaption>iPad retina, 700€</figcaption> </a>
-    <a class="align"><img src="ImageSource/i6.png" title="iPad Air"/>
-      <figcaption>iPad Air, 700€</figcaption> </a>
-  </div>
-  <!--table><tr><td><b>Nom du produit:</b></td><td>iPad 1</td><td>iPad 2</td><td>iPad 3</td><td>iPad Mini</td><td>iPad Retina</td><td>iPad Air</td></tr><tr><td><b>Prix du produit:</b></td><td>150€</td><td>550€</td><td>249€</td><td>248.90€</td><td>275€</td><td>499€</td></tr></table>
-      <br><br-->
-  <footer>                                                                                                   
-    <input type="submit" value="Facebook" />                                                   
-    <input type="submit" value="Twitter" />                                                    
-    <input type="submit" value="Contact" />                                                    
-    <input type="submit" value="Mon Compte" />                                                 
-    <input type="submit" value="Nos Magasins" />                                               
-  </footer>                                                                
+    <div>
+      <h4>HP</h4>
+      <a class="align"><img src="ImageSource/hp1.png" title="Slate HP 500"/>
+	<figcaption>HP Slate 500, 700€</figcaption> </a>
+      <a class="align"><img src="ImageSource/hp3.png" title="HP TouchPad"/>
+	<figcaption>HP TouchPad, 430€</figcaption> </a>
+      <a class="align"><img src="ImageSource/hp4.png" title="HP EliteTab"/>
+	<figcaption>HP EliteTab, 629.99€</figcaption> </a>
+      <a class="align"><img src="ImageSource/hp5.png" title="HP Slate"/>
+	<figcaption>HP Slate, 169.90€</figcaption> </a>
+      <a class="align"><img src="ImageSource/hp6.png" title="HP Slate 2"/>
+	<figcaption>HP Slate 2, 366.57€</figcaption> </a>
+    </div>
+    <div>
+      <h4>Apple</h4>
+      <a class="align"><img src="ImageSource/i5.png" title="iPad 1"/>
+	<figcaption>iPad 1, 150€</figcaption> </a>
+      <a class="align"><img src="ImageSource/i4.png" title="iPad 2"/>
+	<figcaption>iPad 2, 550 €</figcaption> </a>
+      <a class="align"><img src="ImageSource/i2.png" title="iPad 3"/>
+	<figcaption>iPad 3, 629.99€</figcaption> </a>
+      <a class="align"><img src="ImageSource/i3.png" title="iPad Mini"/>
+	<figcaption>iPad Mini, 169.90€</figcaption> </a>
+      <a class="align"><img src="ImageSource/i1.png" title="iPad retina"/>
+	<figcaption>iPad retina, 700€</figcaption> </a>
+      <a class="align"><img src="ImageSource/i6.png" title="iPad Air"/>
+	<figcaption>iPad Air, 700€</figcaption> </a>
+    </div>
+    <br><br-->
+    <footer>                                                                                                   
+      <input type="submit" value="Facebook" />                                                   
+      <input type="submit" value="Twitter" />                                                    
+      <input type="submit" value="Contact" />                                                    
+      <input type="submit" value="Mon Compte" />                                                 
+      <input type="submit" value="Nos Magasins" />                                               
+    </footer>                                                                
 </body>
 </html>
