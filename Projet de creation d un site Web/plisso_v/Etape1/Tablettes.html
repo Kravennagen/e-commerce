@@ -1,18 +1,21 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Tablettes</title>
-    <link rel="stylesheet" type="text/css" href="ImageSource/Style.css">
-    <h1>Tablettes</h1>
-    <h3>La technologie à petit prix ... ! </h3>
-    <div id="startpage">
+    <div id="startpage">    
+      <title>Tablettes</title>
+      <link rel="stylesheet" type="text/css" href="ImageSource/Style.css">
+      <h1>Tablettes</h1>
+      <h3>La technologie à petit prix ... ! </h3>
+      
       <!--Bouton & Formulaire (Login,Password,s'inscrire,search)-->
       <div id="monpanier">
 	<p><input class="button" type="button" href="commande.html" value="Mon Panier"/></p>
       </div>
-      <div id="moncompte">
-	<p><input class="button" type="button" href="formulaire.html" value="Mon Compte"/></p>
-      </div>
+      <form METHOD=POST action="mon_compte.html">
+	<div id="moncompte">
+	  <p><input class="button" type="submit" href="mon_compte.html" value="Mon Compte"/></p>
+	</div>
+      </form>
       <div id="inscription";
 	   <form method="post" action="traitementpseudo.php">
 	     <p><input type="text" name="pseudo" placeholder="pseudo"/></p>
@@ -33,8 +36,8 @@
   <ul>
     <li><a href="mysite.html">Accueil</a></li>
     <li><a href="Telephones.html">Téléphones</a></li>
-    <li><a href="tablettes.html">Tablettes</a></li>
-    <li><a href="help.html">Help</a></li>
+    <li><a href="Tablettes.html">Tablettes</a></li>
+    <li><a href="support.html">Support</a></li>
   </ul>
 </nav>
 <body>
