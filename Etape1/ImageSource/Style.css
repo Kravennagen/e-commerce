@@ -1,42 +1,43 @@
 #formulaire
 {
- background-color: blue;
- opacity: 0.6;
- border-width:1px;
- border-style:solid;
- border-color:black;
- margin-top: 100px;
- padding-top: 60px; 
- }
-#starpage
+    background-color: blue;
+    opacity: 0.6;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    margin-top: 100px;
+    padding-top: 60px; 
+}
+#startpage
 {
-	width: 1100px;
-	height: 15px;
+    width: 1100px;
+    height: auto;
+    background: linear-gradient(black, green);
 }
 h1
 {
-color: blue;
-padding-left: 40px;
-padding-top: -30px;
-font-style: oblique;
-font-family: inherit;
-font-size: 80px;
+    color:#F2DE04;
+    padding-left: 40px;
+    padding-top: -30px;
+    font-style: oblique;
+    font-family: inherit;
+    font-size: 80px;
 }
 h2
 {
-	font-family: fantasy;
-	padding-top: 80px;
-	color: black;
+    font-family: fantasy;
+    padding-top: 80px;
+    color: black;
 }
 h3
 {
-	position: relative;
-	font-style: inherit;
-	color: black;
-	margin-left: 380px;
-	margin-top: -60px;
-	width: 500px;
-	height: 15px;
+    position: relative;
+    font-style: inherit;
+    color: black;
+    margin-left: 380px;
+    margin-top: -60px;
+    width: 500px;
+    height: 15px;
 }
 h4
 {
@@ -45,9 +46,9 @@ h4
 }
 body 
 {
-	background-image: url("background_web.png");
-	max-width: 1125px;
-//	text-align: auto;
+    background-image: url("green_background_2-wallpaper-1600x1200.jpg");
+    max-width: 1125px;
+    //	text-align: auto;
 }
 #inscription
 {
@@ -83,49 +84,48 @@ body
     border-radius:7px;
     font-size: 0.85em;
     width:120px;
-    color:#000;
+    color:#1B2304;
     font-family: Arial,sans-serif;
 }
 
 #bt, #bt:active
 {
-background: #0000FF;
-   }
+    background: #0BCAF5;
+}
 #bt {
-box-shadow: 0 0 1px rgba( 0, 0, 0, 0.2), 0 -1px 0 rgba( 255, 255, 255, 0.1);
-text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+    box-shadow: 0 0 1px rgba( 0, 0, 0, 0.2), 0 -1px 0 rgba( 255, 255, 255, 0.1);
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
 }
 
-#bt:hover {
-    background: #555;
-    background: -webkit-linear-gradient( #777, #333);
-    background: -moz-linear-gradient( #777, #333);
-    background: -ms-linear-gradient( #777, #333);
-    background: -o-linear-gradient( #777, #333);
-    background: linear-gradient( #777, #333);
+#bt:hover 
+{
+    background: #E1F50B;
 }
-#bt:active{box-shadow: 1px 1px 10px #000 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);}
+#bt:active
+{
+    box-shadow: 1px 1px 10px #000 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
 
 #monpanier
 {
-	position: relative;
-	top: -150px;
-	padding-left: 910px;
+    position: relative;
+    top: -150px;
+    padding-left: 910px;
 }
 #moncompte
 {
-	position: relative;
-	top: -188px;
-	padding-left: 1000px;
+    position: relative;
+    top: -188px;
+    padding-left: 1000px;
 }
 #searchbar input.champ
 {
-text-align: center;
-top: 70px;
-margin-left: 150px;
-width: 700px;
-height: 25px;
-
+    text-align: center;
+    top: 70px;
+    margin-left: 150px;
+    width: 700px;
+    height: 25px;
+    
 }
 nav
 {
@@ -133,37 +133,37 @@ nav
 }
 nav ul
 {
-font-size: 20px;
-font-family: Verdana;
-list-style-type: none;
-text-align: center;
+    font-size: 20px;
+    font-family: Verdana;
+    list-style-type: none;
+    text-align: center;
 }
 nav ul a
 {
-display: inline-block;
-padding-top: 15px;
-background: #e0e0e0;
-width: 120px;
-height: 32px;	
-text-decoration:none;
-color: #1b50d8;
-border-radius: 8px;
+    display: inline-block;
+    padding-top: 15px;
+    background: #e0e0e0;
+    width: 120px;
+    height: 32px;	
+    text-decoration:none;
+    color: #1b50d8;
+    border-radius: 8px;
 }
 nav	ul li
 {
-float: left;
-margin-left: 10px;
-margin-right: 130px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 130px;
 }
 nav a:hover
 {
-text-decoration: none;
-color: #e0e0e0;
-background:#1b50d8;
+    text-decoration: none;
+    color: #e0e0e0;
+    background:#1b50d8;
 }
 #offres
 {
-	margin: 5px;
+    margin: 5px;
     padding: 10px;
     border: 1px solid ;
     height: auto;
@@ -174,7 +174,7 @@ background:#1b50d8;
 }
 #nouveautes
 {
-margin: 5px;
+    margin: 5px;
     padding: 10px;
     border: 1px solid ;
     height: auto;
@@ -184,8 +184,8 @@ margin: 5px;
 }
 footer
 {
-	width: 1050px;
-	height: 20px;
+    width: 1050px;
+    height: 20px;
     padding: 10px;
     margin-bottom: 10px;
     margin: 10px;

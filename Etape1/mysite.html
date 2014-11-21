@@ -2,19 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>MEGATech</title>
-    <link rel="stylesheet" type="text/css" href="ImageSource/Style.css">
-    <h1>MEGATech</h1>
-    <h3>La technologie à petit prix ... ! </h3>
-    <div id="startpage">
+    <div id="startpage">    
+      <title>MEGATech</title>
+      <link rel="stylesheet" type="text/css" href="ImageSource/Style.css">
+      <h1>MEGATech</h1>
+      <h3>La technologie à petit prix ... ! </h3>
+      
       <!--Bouton & Formulaire (Login,Password,s'inscrire,search)-->
-      <div id="monpanier">
-	<p><input class="button" type="button" href="commande.html" value="Mon Panier"/></p>
-      </div>
-      <div id="moncompte">
-	<p><input class="button" type="button" href="" value="Mon Compte"/></p>
-      </div>
-      <div id="inscription";
+      
+      <form method="POST" action="monpanier.html">
+	<div id="monpanier">
+	  <p><input class="button" type="button" href="monpanier.html" value="Mon Panier"/></p>
+	</div>
+      </form>
+	<form method="POST" action="mon_compte.html">
+	  <div id="moncompte">
+	    <p><input class="button" type="submit" href="mon_compte.html" value="Mon Compte"/></p>
+	  </div>
+	</form>
+      <div id="inscription">
 	   <form method="post" action="/formulaire.html">
 	     <p><input type="text" name="pseudo" placeholder="pseudo"/></p>
 	     <p><input type="text" name="pseudo" placeholder="password"/></p>
@@ -31,7 +37,6 @@
       </form>
     </div>
 </div>
-</head>
 <!-- Barre de menu -->
 <nav>
   <ul>
@@ -41,6 +46,7 @@
     <li><a href="support.html">Support</a></li>
   </ul>
 </nav>
+</head>
 <body>
   <!--Nos offres & Nouveautés(avec images)-->
   <h2>Nos offres imbatables !</h2>
